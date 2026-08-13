@@ -301,5 +301,5 @@ function chooseTyre(chosen, correct, explanation) {
     result.innerHTML = `❌ <strong style="color:var(--red)">Não foi a melhor opção.</strong><br>${explanation}`;
   }
   // Disable further clicks
-  document.querySelectorAll('.tyre').forEach(t => t.onclick = null);
+  document.querySelectorAll('.tyre').forEach(t => t.onclick = null);   
 }
